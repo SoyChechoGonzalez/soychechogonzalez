@@ -1,0 +1,189 @@
+/*=====GOOGLE FONTS=====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/*===== *VARIABLES CSS =====*/
+:root {
+  --text-color-dark: #000;
+  --text-color-light: #fff;
+  --first-color: #fbbc17;
+  --second-color: #021e73;
+  /*--first-color: #ebbe23;*/
+  --header-main: #000;
+
+  /*=== Fonts ===*/
+
+  --body-font: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 10px;
+  font-family: var(--body-font);
+}
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/*=== Hero Section ===*/
+
+#hero {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../assets/images/laptop_desktop.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 1;
+}
+#hero::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+#hero .hero {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 50px;
+  justify-content: flex-start;
+}
+#hero h1,
+#hero h2 {
+  display: block;
+  width: fit-content;
+  font-size: 4rem;
+  position: relative;
+  color: transparent;
+  animation: text-reveal 0.5s ease forwards;
+  animation-delay: 1s;
+}
+#hero h2 {
+  font-size: 2.5rem;
+  margin-top: 1rem;
+  /*animation: text_reveal_name .5s forwards;*/
+  animation-delay: 1s;
+}
+#hero h1:nth-child(1) {
+  animation-delay: 1s;
+}
+#hero h1:nth-child(2) {
+  /*animation-delay: 1s;*/
+  animation: text_reveal_name 0.5s ease forwards;
+  animation-delay: 1s;
+  font-size: 6rem;
+}
+#hero h1 span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 0;
+  background-color: var(--first-color);
+  animation: text_reveal_box 1s ease;
+  animation-delay: 0.5s;
+}
+#hero h1:nth-child(1) span {
+  animation-delay: 0.5s;
+}
+#hero h1:nth-child(2) span {
+  animation-delay: 1, 5s;
+}
+#hero h2 span {
+  animation-delay: 2.5s;
+}
+#hero .cta {
+  display: inline-block;
+  padding: 1rem 3rem;
+  color: var(--text-color-light);
+  background-color: transparent;
+  border: 2px solid var(--first-color);
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  margin-top: 3rem;
+  transition: 0.3s ease background-color;
+  transition-property: background-color, color;
+}
+#hero .cta:hover {
+  color: var(--text-color-light);
+  background-color: var(--first-color);
+}
+/*=== End Hero Section ===*/
+/*=== Proyectos ===*/
+#projects{
+
+}
+#projects .projects{
+  flex-direction: column;
+  text-align: center;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding:  100px 0;
+}
+#projects .section-title{
+  font-size: 4rem;
+  font-weight: 300;
+  color: var(--text-color-dark);
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  text-align: center;
+}
+#projects .section-title span{
+  color: var(--first-color);
+}
+#projects .project-top p{
+  font-size: 1.4rem;
+  margin-top: 5px;
+  line-height: 2.5rem;
+  font-weight: 300;
+  letter-spacing: .05rem;
+}
+#projects .project-bottom{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#projects .project-item{
+  flex-basis:  80%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+  border-radius: 10px;
+  background-image: url(../assets/images/laptop_desktop.jpg);
+  background-size: cover;
+  margin: 10px 5%;
+}
+
+/*=== End Proyectos ===*/
+/*=== Keyframes ===*/
+@keyframes text_reveal_box {
+  50% {
+    width: 100%;
+    left: 0;
+  }
+  100% {
+    width: 0;
+    left: 100%;
+  }
+}
+@keyframes text-reveal {
+  100% {
+    color: var(--text-color-light);
+  }
+}
+@keyframes text_reveal_name {
+  100% {
+    color: var(--first-color);
+    font-weight: 500px;
+  }
+}
+/*=== End Keyframes ===*/

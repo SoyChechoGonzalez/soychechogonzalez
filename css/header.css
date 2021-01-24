@@ -1,0 +1,30 @@
+header {
+  position: fixed;
+  width: 100vw;
+  height: 3rem;
+  background: linear-gradient(#1fbac0, #fff, #30a0e0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header nav ul {
+  /*position: fixed;*/
+  display: flex;
+  list-style: none;
+}
+header nav ul li {
+  padding: 20px;
+}
+header nav ul li a {
+  color: #000;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  color: #fbbc17;
+}
+@media only screen and (max-width: 640px) {
+  header {
+    display: none;
+  }
+}
