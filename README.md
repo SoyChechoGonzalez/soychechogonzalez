@@ -1,14 +1,13 @@
 # 👋 Sergio González Sánchez 👋
-[![Twitter Badge](https://img.shields.io/badge/-@sakshamtaneja-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/sakshamtaneja00)](https://twitter.com/sakshamtaneja00) [![Linkedin Badge](https://img.shields.io/badge/-sakshamtaneja-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/tanejasaksham/)](https://www.linkedin.com/in/tanejasaksham/) [![Medium Badge](https://img.shields.io/badge/-@sakshamtaneja-03a57a?style=flat-square&labelColor=000000&logo=Medium&link=https://medium.com/@sakshamtaneja/)](https://medium.com/sakshamtaneja/)
-[![Gmail Badge](https://img.shields.io/badge/-sakshamtaneja7861@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:sakshamtaneja7861@gmail.com)](mailto:sakshamtaneja7861@gmail.com)
+[![Medium Badge](https://img.shields.io/badge/-@SoyChechoGonzalez-03a57a?style=flat-square&labelColor=000&logo=Medium&link=https://medium.com/@sakshamtaneja/)](https://www.instagram.com/soychechogonzalez/)
 ---
 
 ## Hola a todo el mundo👋,           
-Soy Sergio González.
-Estudiante de Ingeniería en Sistemas en Universidad Remington💻 .  
-I am a tech and management enthusiast. Would love to be a cloud evangelist and see myself as a Product / Program Manager in my later career.  
+Soy un estudiante de Ingeniería en Sistemas y autodidacta con experiencia como desarrollador web con proyectos personales y como profesor en una institución llamada Cetasdi en Rionegro Antioquia. Tengo habilidades para enseñar y adaptarme rápidamente a nuevos entornos, me motiva mucho aprender y trabajar con Inteligencia Artificial.
 
-## 🧐 About
+
+
+## 🧐 Sobre Mí
 - 🏄‍ Community guy who loves being involved in communities and help students grow
 - 😄 I will usually be a part of hackathons as a #Mentor, #Participants and a #Organizer
 - 🔭 I am currently an MSFT Learn Ambassador, [Mozillian](https://mozillians.org/en-US/u/tanejasaksham/), IBM ZAmbassador, Ex-Google DSC Lead and been a part of many communities and programs by a big force
